@@ -1,0 +1,144 @@
+Oct  7 08:07:27 webserver sshd[1006]: Accepted publickey for art from 10.0.1.15 port 49012 ssh2: RSA SHA256:abc123
+Oct  7 08:07:28 webserver sshd[1006]: pam_unix(sshd:session): session opened for user art by (uid=0)
+Oct  7 08:07:40 webserver sshd[1012]: Failed password for art from 10.0.1.15 port 43358 ssh2
+Oct  7 08:17:03 webserver sshd[1016]: Accepted publickey for art from 192.168.50.7 port 41041 ssh2: RSA SHA256:abc123
+Oct  7 08:17:04 webserver sshd[1016]: pam_unix(sshd:session): session opened for user art by (uid=0)
+Oct  7 08:17:21 webserver sshd[1018]: Failed password for art from 192.168.50.7 port 56559 ssh2
+Oct  7 08:23:50 webserver sshd[1024]: Accepted publickey for deploy from 192.168.50.7 port 57856 ssh2: RSA SHA256:abc123
+Oct  7 08:23:51 webserver sshd[1024]: pam_unix(sshd:session): session opened for user deploy by (uid=0)
+Oct  7 08:28:12 webserver sshd[1030]: Accepted publickey for art from 10.0.1.15 port 53848 ssh2: RSA SHA256:abc123
+Oct  7 08:28:13 webserver sshd[1030]: pam_unix(sshd:session): session opened for user art by (uid=0)
+Oct  7 08:30:49 webserver CRON[1033]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct  7 08:31:04 webserver sshd[1034]: Accepted publickey for art from 10.0.1.22 port 51763 ssh2: RSA SHA256:abc123
+Oct  7 08:31:05 webserver sshd[1034]: pam_unix(sshd:session): session opened for user art by (uid=0)
+Oct  7 08:32:00 webserver sshd[1446]: Failed password for invalid user scanner from 185.220.101.4 port 33779 ssh2
+Oct  7 08:39:57 webserver sshd[1038]: Accepted publickey for art from 192.168.50.7 port 57571 ssh2: RSA SHA256:abc123
+Oct  7 08:39:58 webserver sshd[1038]: pam_unix(sshd:session): session opened for user art by (uid=0)
+Oct  7 08:40:26 webserver sshd[1039]: Failed password for art from 192.168.50.7 port 58089 ssh2
+Oct  7 08:42:17 webserver CRON[1044]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct  7 08:49:30 webserver sshd[1046]: Accepted publickey for backup from 192.168.50.7 port 42279 ssh2: RSA SHA256:abc123
+Oct  7 08:49:31 webserver sshd[1046]: pam_unix(sshd:session): session opened for user backup by (uid=0)
+Oct  7 08:49:49 webserver sshd[1053]: Failed password for backup from 192.168.50.7 port 49482 ssh2
+Oct  7 08:54:00 webserver sshd[1448]: Failed password for invalid user scanner from 185.220.101.4 port 49024 ssh2
+Oct  7 08:58:47 webserver sshd[1057]: Accepted publickey for deploy from 10.0.1.15 port 49108 ssh2: RSA SHA256:abc123
+Oct  7 08:58:48 webserver sshd[1057]: pam_unix(sshd:session): session opened for user deploy by (uid=0)
+Oct  7 09:02:10 webserver sshd[1059]: Accepted publickey for backup from 10.0.1.22 port 48748 ssh2: RSA SHA256:abc123
+Oct  7 09:02:11 webserver sshd[1059]: pam_unix(sshd:session): session opened for user backup by (uid=0)
+Oct  7 09:04:46 webserver sshd[1065]: Accepted publickey for deploy from 192.168.50.7 port 48021 ssh2: RSA SHA256:abc123
+Oct  7 09:04:47 webserver sshd[1065]: pam_unix(sshd:session): session opened for user deploy by (uid=0)
+Oct  7 09:05:15 webserver sshd[1068]: Failed password for deploy from 192.168.50.7 port 58250 ssh2
+Oct  7 09:06:27 webserver CRON[1075]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct  7 09:12:00 webserver sshd[1235]: Failed password for admin from 45.148.10.88 port 30070 ssh2
+Oct  7 09:12:00 webserver sshd[1239]: Disconnected from authenticating user root 45.148.10.88 port 38690 [preauth]
+Oct  7 09:12:13 webserver sshd[1243]: Failed password for invalid user test from 45.148.10.88 port 48211 ssh2
+Oct  7 09:12:23 webserver sshd[1245]: Failed password for admin from 45.148.10.88 port 39722 ssh2
+Oct  7 09:12:31 webserver sshd[1250]: Failed password for root from 45.148.10.88 port 47766 ssh2
+Oct  7 09:12:40 webserver sshd[1253]: Failed password for invalid user guest from 45.148.10.88 port 31873 ssh2
+Oct  7 09:12:50 webserver sshd[1257]: Failed password for invalid user oracle from 45.148.10.88 port 46477 ssh2
+Oct  7 09:13:04 webserver sshd[1258]: Failed password for admin from 45.148.10.88 port 46640 ssh2
+Oct  7 09:13:10 webserver sshd[1259]: Failed password for admin from 45.148.10.88 port 49498 ssh2
+Oct  7 09:13:19 webserver sshd[1082]: Accepted publickey for art from 10.0.1.15 port 41051 ssh2: RSA SHA256:abc123
+Oct  7 09:13:20 webserver sshd[1082]: pam_unix(sshd:session): session opened for user art by (uid=0)
+Oct  7 09:13:20 webserver sshd[1266]: Failed password for invalid user guest from 45.148.10.88 port 37707 ssh2
+Oct  7 09:13:33 webserver sshd[1271]: Failed password for root from 45.148.10.88 port 38067 ssh2
+Oct  7 09:13:44 webserver sshd[1272]: Failed password for invalid user oracle from 45.148.10.88 port 32686 ssh2
+Oct  7 09:13:53 webserver sshd[1277]: Failed password for invalid user guest from 45.148.10.88 port 48521 ssh2
+Oct  7 09:14:04 webserver sshd[1280]: Failed password for invalid user test from 45.148.10.88 port 36693 ssh2
+Oct  7 09:14:04 webserver sshd[1286]: Disconnected from authenticating user root 45.148.10.88 port 40295 [preauth]
+Oct  7 09:14:11 webserver sshd[1290]: Failed password for invalid user test from 45.148.10.88 port 34288 ssh2
+Oct  7 09:14:22 webserver sshd[1293]: Failed password for invalid user ubuntu from 45.148.10.88 port 32377 ssh2
+Oct  7 09:14:30 webserver sshd[1298]: Failed password for invalid user ubuntu from 45.148.10.88 port 48448 ssh2
+Oct  7 09:14:40 webserver sshd[1303]: Failed password for root from 45.148.10.88 port 36984 ssh2
+Oct  7 09:14:54 webserver sshd[1305]: Failed password for invalid user test from 45.148.10.88 port 41436 ssh2
+Oct  7 09:15:00 webserver sshd[1308]: Failed password for admin from 45.148.10.88 port 39338 ssh2
+Oct  7 09:15:11 webserver sshd[1315]: Failed password for invalid user ubuntu from 45.148.10.88 port 47800 ssh2
+Oct  7 09:15:22 webserver sshd[1322]: Failed password for invalid user oracle from 45.148.10.88 port 47332 ssh2
+Oct  7 09:15:30 webserver sshd[1329]: Failed password for invalid user guest from 45.148.10.88 port 48173 ssh2
+Oct  7 09:15:42 webserver sshd[1330]: Failed password for invalid user guest from 45.148.10.88 port 34400 ssh2
+Oct  7 09:15:52 webserver sshd[1088]: Accepted publickey for deploy from 192.168.50.7 port 50311 ssh2: RSA SHA256:abc123
+Oct  7 09:15:52 webserver sshd[1331]: Failed password for root from 45.148.10.88 port 48128 ssh2
+Oct  7 09:15:53 webserver sshd[1088]: pam_unix(sshd:session): session opened for user deploy by (uid=0)
+Oct  7 09:16:00 webserver sshd[1449]: Failed password for invalid user scanner from 185.220.101.4 port 33552 ssh2
+Oct  7 09:16:01 webserver sshd[1334]: Failed password for invalid user test from 45.148.10.88 port 49819 ssh2
+Oct  7 09:16:01 webserver sshd[1336]: Disconnected from authenticating user root 45.148.10.88 port 41235 [preauth]
+Oct  7 09:16:11 webserver sshd[1342]: Failed password for invalid user guest from 45.148.10.88 port 38650 ssh2
+Oct  7 09:16:24 webserver sshd[1345]: Failed password for invalid user ubuntu from 45.148.10.88 port 31664 ssh2
+Oct  7 09:16:28 webserver sshd[1092]: Failed password for deploy from 192.168.50.7 port 55035 ssh2
+Oct  7 09:16:30 webserver sshd[1349]: Failed password for invalid user guest from 45.148.10.88 port 39066 ssh2
+Oct  7 09:16:40 webserver sshd[1352]: Failed password for root from 45.148.10.88 port 34286 ssh2
+Oct  7 09:16:52 webserver sshd[1358]: Failed password for admin from 45.148.10.88 port 44478 ssh2
+Oct  7 09:17:04 webserver sshd[1362]: Failed password for invalid user guest from 45.148.10.88 port 48379 ssh2
+Oct  7 09:17:09 webserver CRON[1094]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct  7 09:17:10 webserver sshd[1363]: Failed password for root from 45.148.10.88 port 34884 ssh2
+Oct  7 09:17:24 webserver sshd[1370]: Failed password for root from 45.148.10.88 port 42098 ssh2
+Oct  7 09:17:34 webserver sshd[1372]: Failed password for invalid user oracle from 45.148.10.88 port 44083 ssh2
+Oct  7 09:17:41 webserver sshd[1375]: Failed password for root from 45.148.10.88 port 41948 ssh2
+Oct  7 09:17:50 webserver sshd[1377]: Failed password for invalid user test from 45.148.10.88 port 38176 ssh2
+Oct  7 09:18:00 webserver sshd[1384]: Failed password for invalid user test from 45.148.10.88 port 48346 ssh2
+Oct  7 09:18:00 webserver sshd[1391]: Disconnected from authenticating user root 45.148.10.88 port 43316 [preauth]
+Oct  7 09:18:14 webserver sshd[1393]: Failed password for invalid user guest from 45.148.10.88 port 37757 ssh2
+Oct  7 09:18:21 webserver sshd[1397]: Failed password for admin from 45.148.10.88 port 30812 ssh2
+Oct  7 09:18:31 webserver sshd[1400]: Failed password for invalid user guest from 45.148.10.88 port 43491 ssh2
+Oct  7 09:18:41 webserver sshd[1402]: Failed password for invalid user test from 45.148.10.88 port 33542 ssh2
+Oct  7 09:18:53 webserver sshd[1409]: Failed password for root from 45.148.10.88 port 45423 ssh2
+Oct  7 09:19:01 webserver sshd[1416]: Failed password for admin from 45.148.10.88 port 45083 ssh2
+Oct  7 09:19:12 webserver sshd[1423]: Failed password for invalid user test from 45.148.10.88 port 37457 ssh2
+Oct  7 09:19:21 webserver sshd[1429]: Failed password for root from 45.148.10.88 port 36328 ssh2
+Oct  7 09:19:33 webserver sshd[1432]: Failed password for invalid user test from 45.148.10.88 port 32274 ssh2
+Oct  7 09:19:42 webserver sshd[1438]: Failed password for invalid user test from 45.148.10.88 port 46692 ssh2
+Oct  7 09:19:53 webserver sshd[1445]: Failed password for invalid user guest from 45.148.10.88 port 47570 ssh2
+Oct  7 09:24:13 webserver sshd[1099]: Accepted publickey for backup from 192.168.50.7 port 54038 ssh2: RSA SHA256:abc123
+Oct  7 09:24:14 webserver sshd[1099]: pam_unix(sshd:session): session opened for user backup by (uid=0)
+Oct  7 09:28:05 webserver sshd[1103]: Accepted publickey for deploy from 192.168.50.7 port 42978 ssh2: RSA SHA256:abc123
+Oct  7 09:28:06 webserver sshd[1103]: pam_unix(sshd:session): session opened for user deploy by (uid=0)
+Oct  7 09:31:23 webserver sshd[1107]: Accepted publickey for deploy from 192.168.50.7 port 59543 ssh2: RSA SHA256:abc123
+Oct  7 09:31:24 webserver sshd[1107]: pam_unix(sshd:session): session opened for user deploy by (uid=0)
+Oct  7 09:31:52 webserver sshd[1112]: Failed password for deploy from 192.168.50.7 port 55337 ssh2
+Oct  7 09:38:06 webserver sshd[1118]: Accepted publickey for art from 192.168.50.7 port 43753 ssh2: RSA SHA256:abc123
+Oct  7 09:38:07 webserver sshd[1118]: pam_unix(sshd:session): session opened for user art by (uid=0)
+Oct  7 09:40:00 webserver sshd[1453]: Failed password for invalid user scanner from 185.220.101.4 port 41327 ssh2
+Oct  7 09:42:22 webserver sshd[1121]: Accepted publickey for backup from 10.0.1.15 port 54246 ssh2: RSA SHA256:abc123
+Oct  7 09:42:23 webserver sshd[1121]: pam_unix(sshd:session): session opened for user backup by (uid=0)
+Oct  7 09:42:27 webserver sshd[1127]: Failed password for backup from 10.0.1.15 port 48630 ssh2
+Oct  7 09:50:52 webserver sshd[1128]: Accepted publickey for deploy from 192.168.50.7 port 49779 ssh2: RSA SHA256:abc123
+Oct  7 09:50:53 webserver sshd[1128]: pam_unix(sshd:session): session opened for user deploy by (uid=0)
+Oct  7 09:54:33 webserver sshd[1135]: Accepted publickey for deploy from 10.0.1.22 port 45293 ssh2: RSA SHA256:abc123
+Oct  7 09:54:34 webserver sshd[1135]: pam_unix(sshd:session): session opened for user deploy by (uid=0)
+Oct  7 10:01:04 webserver sshd[1138]: Accepted publickey for art from 192.168.50.7 port 56010 ssh2: RSA SHA256:abc123
+Oct  7 10:01:05 webserver sshd[1138]: pam_unix(sshd:session): session opened for user art by (uid=0)
+Oct  7 10:01:32 webserver sshd[1145]: Failed password for art from 192.168.50.7 port 50076 ssh2
+Oct  7 10:02:34 webserver CRON[1150]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct  7 10:03:00 webserver sshd[1460]: Failed password for invalid user scanner from 185.220.101.4 port 40278 ssh2
+Oct  7 10:03:44 webserver sshd[1154]: Accepted publickey for art from 192.168.50.7 port 42267 ssh2: RSA SHA256:abc123
+Oct  7 10:03:45 webserver sshd[1154]: pam_unix(sshd:session): session opened for user art by (uid=0)
+Oct  7 10:06:48 webserver sshd[1158]: Accepted publickey for deploy from 192.168.50.7 port 58015 ssh2: RSA SHA256:abc123
+Oct  7 10:06:49 webserver sshd[1158]: pam_unix(sshd:session): session opened for user deploy by (uid=0)
+Oct  7 10:07:26 webserver sshd[1165]: Failed password for deploy from 192.168.50.7 port 59876 ssh2
+Oct  7 10:10:36 webserver sshd[1168]: Accepted publickey for deploy from 192.168.50.7 port 53074 ssh2: RSA SHA256:abc123
+Oct  7 10:10:37 webserver sshd[1168]: pam_unix(sshd:session): session opened for user deploy by (uid=0)
+Oct  7 10:16:20 webserver sshd[1170]: Accepted publickey for monitor from 10.0.1.15 port 47362 ssh2: RSA SHA256:abc123
+Oct  7 10:16:21 webserver sshd[1170]: pam_unix(sshd:session): session opened for user monitor by (uid=0)
+Oct  7 10:16:26 webserver sshd[1175]: Failed password for monitor from 10.0.1.15 port 58150 ssh2
+Oct  7 10:17:48 webserver CRON[1176]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct  7 10:18:56 webserver sshd[1177]: Accepted publickey for art from 10.0.1.15 port 41029 ssh2: RSA SHA256:abc123
+Oct  7 10:18:57 webserver sshd[1177]: pam_unix(sshd:session): session opened for user art by (uid=0)
+Oct  7 10:20:26 webserver CRON[1180]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct  7 10:23:00 webserver sshd[1465]: Failed password for invalid user scanner from 185.220.101.4 port 46758 ssh2
+Oct  7 10:26:38 webserver sshd[1185]: Accepted publickey for monitor from 10.0.1.15 port 44335 ssh2: RSA SHA256:abc123
+Oct  7 10:26:39 webserver sshd[1185]: pam_unix(sshd:session): session opened for user monitor by (uid=0)
+Oct  7 10:33:33 webserver sshd[1192]: Accepted publickey for monitor from 10.0.1.15 port 55498 ssh2: RSA SHA256:abc123
+Oct  7 10:33:34 webserver sshd[1192]: pam_unix(sshd:session): session opened for user monitor by (uid=0)
+Oct  7 10:34:45 webserver CRON[1198]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct  7 10:39:13 webserver sshd[1202]: Accepted publickey for backup from 10.0.1.22 port 55303 ssh2: RSA SHA256:abc123
+Oct  7 10:39:14 webserver sshd[1202]: pam_unix(sshd:session): session opened for user backup by (uid=0)
+Oct  7 10:41:36 webserver CRON[1208]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct  7 10:42:03 webserver sshd[1214]: Accepted publickey for art from 10.0.1.22 port 51118 ssh2: RSA SHA256:abc123
+Oct  7 10:42:04 webserver sshd[1214]: pam_unix(sshd:session): session opened for user art by (uid=0)
+Oct  7 10:43:27 webserver CRON[1216]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct  7 10:48:37 webserver sshd[1220]: Accepted publickey for monitor from 10.0.1.15 port 46012 ssh2: RSA SHA256:abc123
+Oct  7 10:48:38 webserver sshd[1220]: pam_unix(sshd:session): session opened for user monitor by (uid=0)
+Oct  7 10:51:35 webserver CRON[1221]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct  7 10:54:23 webserver sshd[1227]: Accepted publickey for art from 10.0.1.15 port 57713 ssh2: RSA SHA256:abc123
+Oct  7 10:54:24 webserver sshd[1227]: pam_unix(sshd:session): session opened for user art by (uid=0)
+Oct  7 11:04:17 webserver sshd[1231]: Accepted publickey for deploy from 10.0.1.15 port 55913 ssh2: RSA SHA256:abc123
+Oct  7 11:04:18 webserver sshd[1231]: pam_unix(sshd:session): session opened for user deploy by (uid=0)
