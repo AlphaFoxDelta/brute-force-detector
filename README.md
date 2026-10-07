@@ -1,8 +1,8 @@
 # brute-force-detector
 
 Reads a Linux auth.log, flags SSH brute-force attacks with a sliding-window
-rule, and prints an alert + summary report. Python standard library only —
-no dependencies.
+rule, and prints an alert + summary report. Python standard library only.
+No dependencies.
 
 ## Why I built this
 
@@ -23,7 +23,7 @@ about that instead of just counting lines.
   <user>` forms), plus accepted logins for context in the summary
 - Sliding window per source IP: alerts when failures hit `--threshold`
   (default 10) within `--window-minutes` (default 10)
-- One alert per IP per window — a sustained attack doesn't spam you with
+- One alert per IP per window. A sustained attack doesn't spam you with
   an alert for every single attempt
 - Summary report: log time range, totals, top offending IPs, top targeted
   usernames
@@ -72,7 +72,7 @@ SSH BRUTE-FORCE DETECTION REPORT
              scanner      6 failures
 ```
 
-The demo log has three scenarios baked in — check that the detector gets
+The demo log has three scenarios baked in. Check that the detector gets
 each one right:
 
 | Scenario | What should happen |
@@ -96,7 +96,7 @@ python3 detector.py --help
 
 ## What tripped me up
 
-auth.log timestamps. They look like `Oct  7 15:23:41` — no year, and a
+auth.log timestamps. They look like `Oct  7 15:23:41`: no year, and a
 double space before single-digit days. My first parser used `%d` and blew
 up on every line from the first nine days of any month. Dates: never as
 simple as they look.
@@ -112,11 +112,11 @@ quiet until the window passes.
   and alerts while the attack is happening.
 - It only understands classic syslog. Journald and IPv6 would need
   handling before this touches a modern box.
-- Thresholds are hand-tuned. A distributed attack — lots of IPs, a few
-  attempts each — sails right under this. Catching that needs baselines,
+- Thresholds are hand-tuned. A distributed attack (lots of IPs, a few
+  attempts each) sails right under this. Catching that needs baselines,
   not fixed counts, and that's a bigger project.
 - Longer term: ship alerts as JSON/CEF to a SIEM, and optionally hand
-  offending IPs to fail2ban. I left auto-blocking out on purpose — a bug
+  offending IPs to fail2ban. I left auto-blocking out on purpose: a bug
   in auto-block code can lock you out of your own server, and I'm not
   signing up for that in a portfolio project.
 
